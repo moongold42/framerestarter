@@ -15,7 +15,7 @@ search ubuntu
 open it  
 bash terminal should be ready  
 now put framerestarter in the penguin icon that appears at file explorer (i recommend putting inside the home/[your username] folder)  
-then at the bash terminal type "cd path/to/FrameRestarter" (replace this with the directory that leads to the framerestarter folder)  
+then at the bash terminal type "cd path/to/framerestarter-main" (replace this with the directory that leads to the framerestarter folder)  
 make sure you have ffmpeg and mediainfo installed  
 for that just type "ffmpeg" and "mediainfo"  
 the installation command should appear if you don't have it (sudo snap install ffmpeg, for example)  
@@ -33,7 +33,7 @@ open the terminal
 make sure you have ffmpeg and mediainfo installed  
 for that just type "ffmpeg" and "mediainfo"  
 the installation command should appear if you don't have it (sudo snap install ffmpeg, for example)  
-change directory with "cd path/to/FrameRestarter" (replace this with the directory that leads to the framerestarter folder)  
+change directory with "cd path/to/framerestarter-main" (replace this with the directory that leads to the framerestarter folder)  
 run "bash main.sh" (or sudo bash main.sh if you get a permission error)  
 type your video name (you can just type testvideo.mkv if you want to test the program)  
 (don't forget to put the video in the framerestarter folder)  
