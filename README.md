@@ -1,7 +1,7 @@
 made by moongold42
 THIS SOFTWARE NEEDS SETUP FOR IT TO WORK, HERE'S THE INSTRUCTIONS:
 
->------------------------------------------------------------------------------------<
+------------------------------------------------------------------------------------
 
 for windows 10 and 11:
 
@@ -21,11 +21,11 @@ for that just type "ffmpeg" and "mediainfo"
 the installation command should appear if you don't have it (sudo snap install ffmpeg, for example)
 copy + paste it
 now do "bash main.sh" (or sudo bash main.sh if you get a permission error)
-type your video name
+type your video name (you can just type testvideo.mkv if you want to test the program)
 (don't forget to put the video in the framerestarter folder)
 you're done
 
->------------------------------------------------------------------------------------<
+------------------------------------------------------------------------------------
 
 for most linux distros (sorry if yours didn't work i haven't tested them)
 
@@ -35,7 +35,7 @@ for that just type "ffmpeg" and "mediainfo"
 the installation command should appear if you don't have it (sudo snap install ffmpeg, for example)
 change directory with "cd path/to/FrameRestarter" (replace this with the directory that leads to the framerestarter folder)
 run "bash main.sh" (or sudo bash main.sh if you get a permission error)
-type your video name
+type your video name (you can just type testvideo.mkv if you want to test the program)
 (don't forget to put the video in the framerestarter folder)
 you're done
 
