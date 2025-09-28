@@ -18,11 +18,11 @@ fps=$(mediainfo --Output="Video;%FrameRate%" "$input")
 
 while [ $i -le ${frames} ]; do
 time=$(awk "BEGIN {print $i / $fps}")
-ffmpeg -i "$input" -ss 0.0 -to "$time" -c:v libx264 -crf 20 -preset veryfast tempry/"$i".mp4
-echo -e "file tempry/'$i'.mp4\n" >> array.txt
+ffmpeg -i "$input" -ss 0.0 -to "$time" -c:v libx264 -crf 20 -preset veryfast tempry/"$i".mkv
+echo -e "file tempry/'$i'.mkv\n" >> array.txt
 ((i++))
 done
-ffmpeg -f concat -i array.txt -c:v copy -c:a copy output.mp4
+ffmpeg -f concat -i array.txt -c:v copy -c:a copy output.mkv
 
 echo "" > array.txt
 rm -rf tempry/*
